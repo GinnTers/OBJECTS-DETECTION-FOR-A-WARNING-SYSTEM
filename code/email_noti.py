@@ -7,8 +7,8 @@ import asyncio
 async def send_email_with_image(subject, body, to_email, image_path, sender_email="your_email@gmail.com", sender_password="your_password"):
     try:
         # Thông tin tài khoản email của bạn
-        sender_email = "pthu7325@gmail.com"
-        sender_password = "jjrk impv sptg bghz"
+        sender_email = "your_email@gmail.com"
+        sender_password = "your_password"
 
         # Đọc nội dung của hình ảnh
         with open(image_path, "rb") as image_file:
